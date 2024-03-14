@@ -24,11 +24,15 @@ https://50fphxreva.execute-api.eu-north-1.amazonaws.com/api/v1/event/list
 
 ### All Methods
 
+```
 GET /api/v1/event/list
 GET /api/v1/event/{id}
 POST /api/v1/event
 POST /api/v1/event/{id}/vote
 GET /api/v1/event/{id}/results
+```
+
+More information at https://gist.github.com/VilluNikolaiV/44eae2829f7ece9c0d0657d502ed8c63.
 
 ## Further Development
 
