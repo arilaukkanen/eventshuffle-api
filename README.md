@@ -32,7 +32,7 @@ POST /api/v1/event/{id}/vote
 GET /api/v1/event/{id}/results
 ```
 
-More information at https://gist.github.com/VilluNikolaiV/44eae2829f7ece9c0d0657d502ed8c63.
+More information at https://gist.github.com/VilluNikolaiV/44eae2829f7ece9c0d0657d502ed8c63. Note that the current implementation differs from the given specification in event id type. Auto incrementing id is an anti-pattern in DynamoDB, UUIDs are used insted.
 
 ## Further Development
 
