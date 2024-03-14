@@ -4,7 +4,7 @@ Eventshuffle backend API.
 
 This repository contains the Lambda function code. 
 
-## Technical information
+## Technical Information
 
 The eventshuffle-api backend is constructed on AWS cloud. The backend consists of HTTP API Gateway, a Lambda function, and a DynamoDB database.
 
@@ -20,3 +20,19 @@ For example list all events:
 
 https://50fphxreva.execute-api.eu-north-1.amazonaws.com/api/v1/event/list
 
+### All Methods
+
+GET /api/v1/event/list
+GET /api/v1/event/{id}
+POST /api/v1/event
+POST /api/v1/event/{id}/vote
+GET /api/v1/event/{id}/results
+
+## Further Development
+
+Some ideas how to continue developing the backend:
+* Input validation on API Gateway level and code level
+* Better error handling in backend code
+* Minimum access policies for services
+* Security 
+* Authorization
