@@ -38,6 +38,7 @@ More information at https://gist.github.com/VilluNikolaiV/44eae2829f7ece9c0d0657
 
 Some ideas how to continue developing the backend:
 * Input validation on API Gateway level and code level
+* Logging and monitoring improvements
 * API tests
 * Distribute code on different Lambdas based on request
 * Better error handling in backend code
