@@ -34,11 +34,12 @@ GET /api/v1/event/{id}/results
 
 More information at https://gist.github.com/VilluNikolaiV/44eae2829f7ece9c0d0657d502ed8c63. Note that the current implementation differs from the given specification in event id type. Auto incrementing id is an anti-pattern in DynamoDB, UUIDs are used instead.
 
-## Further Development
+## Further Development Ideas
 
 Some ideas how to continue developing the backend:
-* API tests
 * Input validation on API Gateway level and code level
+* API tests
+* Distribute code on different Lambdas based on request
 * Better error handling in backend code
 * Minimum access policies for services
 * Security hardening
