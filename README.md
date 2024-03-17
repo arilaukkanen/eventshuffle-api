@@ -2,7 +2,7 @@
 
 Eventshuffle backend API.
 
-This repository contains the Lambda function code. 
+This repository contains the NodeJS Lambda function code. 
 
 ## Technical Information
 
