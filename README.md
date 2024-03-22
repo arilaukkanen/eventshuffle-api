@@ -37,7 +37,7 @@ More information at https://gist.github.com/VilluNikolaiV/44eae2829f7ece9c0d0657
 ## Further Development Ideas
 
 Some ideas how to continue developing the backend:
-* Input validation on API Gateway level and code level
+* Input syntax and semantics validation on API Gateway level and code level
 * Logging and monitoring improvements
 * API tests
 * Distribute code on different Lambdas based on request
@@ -46,3 +46,4 @@ Some ideas how to continue developing the backend:
 * Security hardening
 * CloudFormation stack for automatically create all resources when needed
 * GitHub integration and automatic pipeline for updating Lambda function code
+* Separate environments for testing/staging/production
