@@ -1,6 +1,6 @@
 /*
-futurice-events-function.mjs
-AWS Lambda for handling futurice-events-api calls.
+eventshuffle-aws-lambda-function.mjs.mjs
+AWS Lambda for handling eventshuffle-api calls.
 */
 
 import { randomUUID } from "crypto";
