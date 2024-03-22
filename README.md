@@ -1,12 +1,12 @@
 # eventshuffle-api
 
-Eventshuffle backend API.
+Backend API for an event voting application.
 
 This repository contains the NodeJS Lambda function code. 
 
 ## Technical Information
 
-The eventshuffle-api backend is constructed on AWS cloud. The backend consists of HTTP API Gateway, a Lambda function, and a DynamoDB database.
+The eventshuffle-api backend is built by hand on AWS cloud. The backend consists of HTTP API Gateway, a Lambda function, and a DynamoDB database.
 
 ![Backend architecture](https://github.com/arilaukkanen/eventshuffle-api/blob/main/eventshuffle-api.png?raw=true)
 
