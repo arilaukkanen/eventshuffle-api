@@ -1,5 +1,5 @@
 /*
-eventshuffle-aws-lambda-function.mjs.mjs
+eventshuffle-aws-lambda-function.mjs
 AWS Lambda for handling eventshuffle-api calls.
 */
 
