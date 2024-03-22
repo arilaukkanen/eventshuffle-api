@@ -12,6 +12,8 @@ The eventshuffle-api backend is constructed on AWS cloud. The backend consists o
 
 API Gateway receives clients' requests and routes them to Lambda function, which parses requests and serves them. The event data is persisted on DynamoDB document database, which has one table for events. All single event data including votes given is contaianed in a single item on DynamoDB.
 
+Logs from all services are stored in AWS CloudWatch, from where they can be accessed using AWS Management Console.
+
 All used AWS resources are serverless, meaning they all are highly available, scale automatically and generate costs only when used. Being serverless backend, generated CO2 emissions are hopefully minimized, too. :)
 
 ## API URL
