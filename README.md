@@ -10,7 +10,7 @@ The eventshuffle-api backend is constructed on AWS cloud. The backend consists o
 
 ![Backend architecture](https://github.com/arilaukkanen/eventshuffle-api/blob/main/eventshuffle-api.png?raw=true)
 
-API Gateway receives clients' requests and routes them to Lambda function, which parses requests and serves them. The event data is persisted on DynamoDB document database.
+API Gateway receives clients' requests and routes them to Lambda function, which parses requests and serves them. The event data is persisted on DynamoDB document database, which has one table for events. All single event data including votes given is contaianed in a single item.
 
 All used AWS resources are serverless, meaning they all scale automatically and generate costs only when used. Being serverless backend, generated CO2 emissions are hopefully minimized, too. :)
 
@@ -38,12 +38,14 @@ More information at https://gist.github.com/VilluNikolaiV/44eae2829f7ece9c0d0657
 
 Some ideas how to continue developing the backend:
 * Input syntax and semantics validation on API Gateway level and code level
+* CloudFormation stack for automatically create all resources when needed
 * Logging and monitoring improvements
 * API tests
 * Distribute code on different Lambdas based on request
 * Better error handling in backend code
 * Minimum access policies for services
 * Security hardening
-* CloudFormation stack for automatically create all resources when needed
-* GitHub integration and automatic pipeline for updating Lambda function code
-* Separate environments for testing/staging/production
+* GitHub integration and automatic pipeline for updating Lambda function code when commit is made
+* Separate environments for testing/staging/production and a mechanism to release staged version to production
+* Domain name for API
+* Introduction of e.g. edge locations or multiple regions based on access patterns 
