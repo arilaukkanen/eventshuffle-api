@@ -40,6 +40,7 @@ More information at https://gist.github.com/VilluNikolaiV/44eae2829f7ece9c0d0657
 
 Some ideas how to continue developing the backend:
 * Input syntax and semantics validation on API Gateway level and code level
+* Use REST API Gateway instead of HTTP API Gateway
 * CloudFormation stack for automatically create all resources when needed
 * Logging and monitoring improvements
 * API tests
