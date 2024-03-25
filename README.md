@@ -14,7 +14,7 @@ API Gateway receives clients' requests and routes them to Lambda function, which
 
 Logs from all services are stored in AWS CloudWatch, from where they can be accessed using AWS Management Console.
 
-All used AWS resources are serverless, meaning they all are highly available, scale automatically and generate costs only when used. Being serverless backend, generated CO2 emissions are hopefully minimized, too. :)
+All used AWS resources are serverless, meaning they all are highly available, scale automatically and generate costs only when used. Being serverless backend, generated CO2 emissions are hopefully minimized, too.
 
 ## API URL
 
